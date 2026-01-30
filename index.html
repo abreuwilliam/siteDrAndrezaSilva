@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="FsXW_odeaYMJvxEcxO5Knh9c8Ci19rhVI0U-zqZfY3Q" />
+    <meta name="description" content="Dra. Andreza Silva: Especialista em Depilação a Laser e Estética e Depilação a Laser. Atendimento humanizado em Luziânia e Águas Claras. Agende sua avaliação!">
+    <title>Depilação a Laser e Estética | Luziânia e Águas Claras</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+    <!-- Barra superior -->
+    <div class="top-bar">
+        Atendimento presencial em Luziânia e Águas Claras | Online quando aplicável
+    </div>
+
+    <!-- Header -->
+<header class="header" id="header">
+    <div class="logo">
+        <strong>Andreza Silva</strong><br>
+        <span>Depilação a Laser e Estética</span>
+    </div>
+
+    <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+
+
+    <!-- Hero Section -->
+   <section class="hero">
+    <div class="hero-image fade-up delay-1">
+        <img src="perfil2.jpeg" alt="Fisioterapeuta Dermatofuncional / Depilação a Laser - Andreza Silva">
+    </div>
+
+    <div class="hero-content">
+        <h1 class="fade-up delay-2">
+            Você merece <span>cuidar do seu corpo</span><br>
+            com saúde, estética e bem-estar
+        </h1>
+
+        <p class="fade-up delay-3">
+            Se você busca uma fisioterapeuta dermatofuncional em
+            <strong>Luziânia ou Águas Claras</strong>, especializada em
+            <strong>depilação a laser</strong> e tratamentos corporais e faciais,
+            saiba que aqui você encontra atendimento humanizado, tecnologia e resultados reais.
+        </p>
+
+        <button class="btn-primary fade-up delay-3" onclick="agendarConsulta()">
+            Agendar Avaliação
+        </button>
+    </div>
+</section>
+
+<section class="porque">
+    <h2 class="fade-up">
+        Talvez você esteja aqui porque…
+    </h2>
+
+    <p class="subtitle fade-up delay-1">
+        ✨ Seu corpo pede cuidado, atenção e tratamentos que respeitam sua saúde,
+        autoestima e bem-estar.
+    </p>
+
+    <div class="cards">
+        <div class="card fade-up delay-1">
+            <img src="https://img.icons8.com/fluency/96/laser-beam.png" alt="Depilação a laser">
+            <h3>Pelos indesejados</h3>
+            <p>
+                Está cansada de métodos temporários e busca
+                uma solução eficaz com depilação a laser segura.
+            </p>
+        </div>
+
+        <div class="card destaque fade-up delay-2">
+            <img src="data:image/png;base64,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" alt="Depilação a Laser - Andreza Silva">
+            <h3>Flacidez corporal ou facial</h3>
+            <p>
+                Percebeu perda de firmeza e deseja tratamentos
+                que estimulem o colágeno e a saúde da pele.
+            </p>
+        </div>
+
+        <div class="card fade-up delay-3">
+            <img src="data:image/png;base64,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" alt=" Depilação a Laser - Andreza Silva">
+            <h3>Autoestima abalada</h3>
+            <p>
+                Seu reflexo no espelho já não representa
+                como você gostaria de se sentir.
+            </p>
+        </div>
+
+        <div class="card fade-up delay-1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAADyCAMAAAALHrt7AAABOFBMVEX///////7U4fQHNckHNMr///wHNcgFNM0UPckUPMrX3/AAGrwb5b/u9foAGsH9//8AHbbU4fIALcnU4PYAKskAKssa5r74//8AKM0AMcyC5tQAIcQAFLkAHrwAKMYA5LoADrIAI865yO40RMEAGLXx//8AI7Jw4dUpo8gAB7UepcHf5fQAALmBks6YodMAJLrG0Oh1hMi7w+TN3flQX8Wuttxvesvp8fs2SLxFWsYAKbTX5/5J4MHZ+faPoNvJ+PJVYsE/UsSgq9aqveeHncrr7f8XMratt9kSM6t2iNqHltN0f8egsOSUotyEi9XDyuBXar/F5/ZN3Mi55/Fq48yg7d+c6txk2dTh/f0x27oa67m17OSD6dJDu8UnrL9g7NoAFs6e5+hfb8+PmNtOYbpAUrYtQ7Vsd86aTHnTAAAgAElEQVR4nNV9CWPayLKuBGopgSAhCQIKixeI5/phsxmMl4xj4xecwUs8czJzJ29y7zvPnsT//x+8+qolwAlms3Dm1pzjeBHqru7q2qtaUWYBUTl//kPh2fPzjphpqrNB4n1a+7GgZ3uJ8PARzTU9+mPxMfS1ZngIKe1c9MciZOj6WjtEhDp5DQhFDT0YAQhGlw4axqORdPo33wkPH6E0HB7AMXMDMJ8KijqWzmmEyBSEiJk6XvrL+hDqsaeBSh+LqeVjISJkqUoLq+SdHEbsiA8VSzwBEHV8SRFL8P5Ww8NHURW1aYLkzPWIK9Fx3UiIbPRhsNRKXifqyDWVMElOUa0DsIJ0o2K7gy1SwxR14wemIY7S4EA9K8wdUlRVJbagR43SgOIikZi1dIQUGmLPI4Scq5BfLNS6qRuaHl8fHqKnoDmhVOKQEGZdhElytEGKsgFJlO4PSc4NUTA8BEKtpoHQBnGgMGkOy3Pu0Nn09ocIReyl0xwNcOwRj0udY1XDfbfP55I7w0MUSSwbIVVJJOno6sTjQkaH3p0oQBXJXQw3KNIJfZTvAMuo64WEsgSM5Ob/MsLn7PBH+Ra26QgZXksJn+SEoOOpa17pcIhPzAp3jO8HVfYMorhsVQmTx/nvFm4cWm9hx3aDTXKXzbhFp6wRK4q7S6AEVbWStFjRwgVpP/ZTMe5mLqpF9eQyKIFI+Nih5XLoEA30OXvZNNcn0193Wst4tcqHiGTcSWWAUCSybIT2Yd+lq0t5t1DqkER0iAKSc5d8iFQlk9eNKOk9y3m92kneNyEi9rIPUWxLxxFazih0iPYMQqh4aQ9Izq0sZSgJxKjbRdK0vb2lvB72yC6MYWe3EhmcIXspY0kghK4cKMS7S3m9RVtUTcEO36/YPsFF3CUipBJGx46uaU51OQoJqe8fcqRYaT03MtS4E7DPlzEckYSw3sOTYX4Q4ZqrPhBCnS2SCtHaqMLdWRpCtEGdArjQVkWErcfJ1wvVKhPT0XLr3yC0HLCEGmOLZdVaBj4Ke0T24D3NXYyQXGV5Crcq2AQz9kJXtCUAoWtSfrTU7cgOVZZC3gBVFd00uOq1Eqr1fQ8aaanNjZrhyxqLdugWVn+qsaQdAlxmaQTnZtTGs5bGFFSSezoEuVgeWXeLpMw5+/cQWgoLUvjQthihrrIE+9uHZsGA0Vq5t0NiKa4SOkLKnkcIFZrLkwyEEIJPvaEVLiXrMkAlTlDyovBqL9HlXI8j/HTwFAiB5A6gKMTr6vKYQixOXE6r3UNoWaOR5pNkhGLK0kSDRCiafBqEFKsMezVuL48nKHZBImTb7uGvv7ox251is9LaksakqPwvVPYZgJjM69d4PFOG5kMILZHkClEiOULI/fW3Fy9++nWqEU7HmfARco2JH06fGj2QefXpxcc/6XsgpBNCy2MKwRmy7d9WXrxY+e3XaSQHowb/67iw1mcJiQgl8xHvfmMp1oYGhGJL9M/W43CTEJf7F4358sXLnw4jicliiDiU6Bztrcbjq6V+YhaMMh/x6hcvflaUAyOq6/H6EkmO5BCpv71D9180Ig278pudmBy4Iebb3MhqhhbVjXSyPd2l+/ojv/rlys+q0vOIwuPN5clVpZkjkxiagv3bS17GF7+9nnjSLaFUTTBfXdfp//mqmKCYYSMyH/m1L16+IT6yR4JVQyhlaYfoIgt/PelysX8BIxp75WNm4g6JJqxcQzOwR7qxhYSdhz5A3HCIz5+EeMsghNIXyvIkaz9NgsG5syN27FfCCMcIGE34ROIAbghCBeebtIxe5uEtskSG6Q34vMZ+wcukpfvM9ZcDuykSdc5VJcIYrTDVEUYTPtHNgY1ouQO9wFtUbE+YW4DPCuFDWIg+K/e74Pyzg4WdZgmIT6mKVG0t/Oz/YWQGJ2SBa6kj9si5v75ZkZzhY8Z6cNVbDu2pUWhbVhsyLOocj3+ONkEM6e01fD6K0l4jhLyT4UP35g1dAqhihpbiS21r+KiQ7x3gBlK3+L8hrBYdx/n3acVlYKqTe/TAGqpWkvenDXlUzcLFUnuACVssf+SxZEZD/L6+5RSdVH6E4KzhrHl69F5LDiTXFDLk51evfn8NfN6+evVXxsfgzz/ol5glLRR9H8B/MPznTz783xdDjMYjlNnkgFUHaTuVeJR+2HrAhyP5Ab/vYzDcf8rxBsP/8af/8Ovf5feEh8j89erVW/+Xr0h4vZU0K8TvK0Q9ny3mQX9+WsHGM/Z/fno5gBXA/4FQZXjhH+EHz5GaWSWWoMXrxAmEXYgSZ9h8gIewfiBR8t+8QuNhTHzlAV+sfPpZ4gNi//QncRFa/o/48+/8S5rfX8obPth/KBl5wt+yMvlqBVv/O+/pZ0kIL/zlexGs4wi8xLPjoeQRG/GO8e21Q+xO6z1gf/6+4r/qJcvVwXgvX74YLtzLV8GzK/ge6/2W//Ipo/6Beb58o/icSvmTX0AY4qBJbvOZz9ab4IXBP9+ig4FefnwAoUYarCDbOmu3ssiqcs4fsG4+vlj59r3+4kE2BD+94RPzGfi8+Mjs4C85ndf+nF9gh17yDn16IXcIjOEVv+l38BH63sdAcunRcYe4rbx6AKFYnox2/blTLDrAR8/XH3BUf375zcINxhj8TE98ljvERPGKd/qtnEZG+YN57hv+BfP9v1Z4XnTOLD5DK28yzPnoDAWzHj043wz+83h8LOUcCcWI/OpEcNH09UM698+fhnQ9HIPPz8qKv4ovP0mugDNE3/PCWK/or0RY/i/fgst9/p35JH3zV0aRkun1H6/+eq3IXB5wuc+fP7/6/F//C/DfP/005HL+sJ/ePrBBQkm8hySSObe600sgBW4MQqo8DLxuHzGchP/+Dwz5XzQ4/Q+cjQWOCi732pea1l+fictZ4HKfweWYiUI0BXLIYqmq+H+xlCBDSSi9tbXs2r93fSnkuoe/BWv69kENVYjOXo54gYHE3uzXDpTTcSSnSoyYAkZY5tW/1wh6I3jLl+KLFDCDefMyzaFTCJWOA/Hg3Kkf7orZb3xetPIwPliozPZm1vG8dHazkXnQILLkHslT+ibjy3YywBBk3VxG4oUQ22lSYvTAh8V6gtS4idU/hBGSO4ns2rvHrd12QkwwBMBcA4xeBgqvsA6wtal++PjQVHpIC/d2eYNiEdCbPMBvlQnaKWPg2wtiohmg+udIKgsZ/xPnaRZeoYcEkBdMR4Es/FNJcPZvvoAFP7Ae9JzR/pCwILUMIkOeyfHAB8IacIaXAUZ1k1WNMOseeF60zseeQQw4cAP/9NJXGR4+PwsAKZSf/HP0mZdJtd4bsFiOw7VacbRjm2R26tltyRL+NeRvIjSEmAu//SQl9sqfUplGPk40asZC9WWpnHLq6TIvxkcIW/Tpbbjp4RYx5Lf+1rOoFkgwi7LGFK5jgXR/Opu6d30oEfr100vJDyTphwOkotB2q5IzfCLByYxiNwWpXK6EyrmxQZD38XU/Gun+v0/MDwaWYijArAVUR0bDXzwusZOYqSGwex7aKBjDD7Ab+0Mn/b/+gMIUfoSVTbDffx/RDY8dkkXRUKtTwOKi/gYF4chYQoTHDkaAbFDLUoYnhkt9iB095IxYCETT1OGDag3D33aH2Vv4Kon0zNwj5GMHbkozLFlEBzPRgzDQC+uRAUa2IpaT4BHonEP9WMTiXIb33hIhrCAyYpRGEXUP3p0fLLbpvycpHgqgwbKo2AjDyS1Y/eB6wsIgacl1KyEXV0wENZGE1qVt1sMgcVUkerCitdzl8ATFEupyUr7GzkBV2ljSqNHLhCBdBUs2XfdORgKrHfYNPRUgwxpLGk09NrdRhd+/bcIpEE2u275lFyGCC2WiM8+CFJUCF7OabfEYQQ6molZq0Dz03FHFz2623dgk7/ySoJvTDSK6jYp4RG4WBz6+8NJ4x1Di/DO09LKh70EV1wit6N6Xx2jDCMVXcxqHVXdigQxyK0vMX3twKiJxEEWQaa2qPqaujGQa1kU3T4f5SiiOfHKE6OA0t7TnNJVAp1tkCmSffPUQenN27aAgxbafVKQGQKaraGR1spmdL1IELoKQqlThUtP1kh2IIDvSeVIOF4AlVJF578GntVZVFtWARCXPgVFSsv0D5D5BZeQDoMJPDg1MX7UX1emsLyjy1ZztyoDifgSHG0K1CJHInG7eafC5J96vI4Px9mLn8NBmHa7jRy6XzOfIUrWUINpI1Abfr/XuwxHy4DXd7C7AloQlOpx2TkcotZbsta4IK7uiyIjyEhO+AH4sFC4T9mNbnQ+XN+8LayluFRHVkp25FxRrcs2OOG6hoXmekzN7x/1mx4/NLlnZZhIAMVid5uV1bzOXQp0K4rXISnF251eAUM+F/BxuB0Lv0QwivlQxlz8grGJPwroTsXb1uJfPFT1NZ3WSyQX/RM36vOa/QHSUbKDnhgFjUeOglQFLWPPShfjByXn3wzv/nTLuNPwWGq3qu7HVe+7se5sqPTyDMzm0UPm4dM9PDvK5tMenhmfA/Vai6PMS1b2v86EDjLprOnDRk4UU2D/H4AadYjTNSa+tJks3t2f1itwunF1VYiCTDBBz+t5Kl0a14vvDVThEhq4jK1Gpt2/vSsnVtSxLdIzq5z2B4pxsrkDLSich1/WXfWZIHHAcsbBTv7hq1fKgYVodAknH+KpHPSdVNM2Dr8e/XLYJscHEhMoT9zEMMOHdsoCk/+Ag044Q+dC+3L35epA3i2lHM0Zb4TCRaal0kai92uxUkjCNjAOEX+Y5xv3sc9rc9C2MhsPDnYtfiJpNxwtOpt/bx+9e5KRSOXNrK1nav2tcXrSbhFxissvOshKdSr3Z7F5e7bZKha2tQjGVcpAeB7qQ2WhygzTPSZubveujZkeuSxUpbnquOmsKq4TORhSpXT3XlvKHsKpUmv2bXhnE4K8bB051HlWLMq3T4NlioVCIx2sbB6W9/f3ju93zRmM7gMb57t1xa3+v1KvRQ/RgLpv1vKDjkVydgLPivHjZtfL7m8sPHewGiSOLNt16D2rUap2ZKQ4buZ0CZ8tdSCvVhlmX4LTeyofqXSmez2aZjQIdgwlElz9F/YWlCRF5ErMHpFKpNID+pZ88x/OCDZYpZ4NOTvpATBheOpcv791VP7DuODp19SxHoxmp7ZkpjhTBDqeAa6VDadMBqwpbDfJMd3bOtq+f1eKFdNrxuz0ZjJA+Y48pbUiyjJSuMwONgqemsoV4rXSz3fYTju/vA2Kce1g6ozardMVR7rMjLHdRCRBy3YSKCKnKZ1pK1USsWW0c9za3zKIUe0ZwmHEAJqKl+1+YUuV2OrSB8c3VXqtR9eUcAubiO61NKFz4pWvZ/sxVJCJRw4De3qEbWA1spqqsIkiBwYyZnwaHOto9/tpLoo+VQ0qFh2Re/5RNQEhjkkzn1v5t1npfj3f7bRYBfpaYFagK35x80AncApq2MauirAppdxdPO3aMLCEXBasJmRoYvN5i4hMw0oGjVFJisWb39uqutdfbKK+u5s01hmzWPz90krJZ+Tszv7q6uvF+r3XX6HeJKQa10WpgX6vBsgVkpYqBJFCVegFpKblZC4tUtcS0o5Vu+qc7hxVEHMjuFtbsvgRiyu8q7odm86zd7lar/9uHarfbPjtrNj+47rtOYgbfkeorjgGGSGmvd3dLLOqNkiKU8Wkc90EWJwKcVK7GWKGoRlK0NTUkJLgmwKfNB0YD+bKUnToXlaN40mGaqHfv9pJmWqp06F40W4q6uHZ8+meW5aVNs7RbrXdY2iuznER/OUGLaqDYBYqfRBUCRZ2usVtMFbwv1d3SpglhIZkJmI5zN5P2QzxbH3AoFti67qVIXDJW0uaauB7ghLwFRKWWqgy1VD+tiBGZifYZp3fApUCahCd1bcn2WfCRXTRFW2D9CIbqQPKxYJEslnTDeLnX2j7zuygEirQaGJbyHZZkGBOJgYUlM01VPsvHX75ISGZAXzr1s+1WrxzPOlBU2YiBqEMfGSn9ct1pCHH8bJ/V0me9OOmJEHes3AQ7RvJizSS0rrr1Ssa3GYLOdkMkxQyFNZxVzRuoSq+OCBbFylTq3StCxcymfL1I7g3kNoneLNmaz/AL44syLQgCLWGLlb8Le/3ifL+QT6U8qZ/4pwpqASlZTtbMH+xdX0EKDrXsUb40cRh/Gy1rEB/hH0lWd6/uvh5AoHnGwESVyMBfk8ptJvf77Ypo57DOm1O7udI6ddFlQqvtQI2zD9cvftk/+LfprxScsZpvxJL24aVgw27FS383LiFOfBVblS8a9/ox31mwgkjtbhyT1r2ZI63DkEoq1AhdM/yV9FJr5sHxbbsi+USClbNie9phpGncQD3zWhUXbRNsgkO30rxtbeTX0p7nHypp62m+Jqlhw4qFeL6glfZvdhvVLlkQJGogazLf0LhlZTKdd+9ct94kCbW9e7Pf05NxqN0p1uIZFX2gpjJxeMW1/EbrtlkJdhJkeo0Gfs7NVBNCJFBWFU0f2YHaE3E7OKEWWQ/HvdV4Nu3xcLSABnZJG9XcYEA4KegDufgqaQvljY2DXq80gF7vYCNJv4cekSWADTRU+gy8kl/nrxfRWJYOLLwY3zmamJCMg+lVp3UTXM3cGQa82bko2bB4V+82TjbiuWI2NbDvdC3QzkZ0NZ9UYESQyhaAESjZQ/45YMTyD7REvFFkCxfiGyfn3XpHlTL9m5BhZxO8zqxPZT7VFOp9SoOWCfD+It/N4voOPhkZUj+I4vNbuaIDgseG3bOao74VwYVd2nD2gdWgB8/40nsAhmc4TjG+lS8dX13UO1I5UqWx/q0ULkEYTethRKvQQrly6vxw0OvGtiEgVF9bgVz0hyE1u3t1c9IrmKbEbIiMv+bSlNX0AAamdYDHwFYlPMiKN5O9L3dX3SYr3cL3TAip4n8X1N1O6zoatU3eIRVJnsy0BykjbiXwOPEDg2zL4CNWp1I/u7y62evR4YjnSL2GWcr+FKmmDLgHz3zQRZlsh1SaDhsp3sneyc1VtV2PjYQ27isT389acPmcdjBZDqkKBxyMYUoCuitNo9JASbA679zmWbfa2L1pnZSe6bVkoVwux4dA3+fz5WSypj8rnbQCfviuw36vmbTEEYQqXPWcn9IqSUVnbd0YLV+3EzMgJOnjfpIsCZhEp1KJue5OnWHHjVUqlU4iMeDlAzVPqqBzIUS0RGs/rQu3qKL1udcaRWhijd3wk35FmFTMBho366IBBIE3+Zj8MdBY/bM5M1pCPYarcApXUNVdKOjpxkiShT2TVWcFepylysiBFbiB1eF5C0wkVagBlUnljd2n88VoVGU7q3OF3mQ4AU9IXw67qLhLbHTzOGhnieS8/YnTU61n4L6F09E0mOUVLj8OEB6JepNz1EWiDA2kvD5CcfMHl54G1MoqlL3k5NCOy9XrNXfYF8ZO/FMRsmoIREzm22qdu+0/O7yH0FNNcT6g4wE1Mr4zsalMk+9DKI1ybWspubKPBtS+QxXJTeySo3azsEf37yP0lPOcGSyZqozrICYteDdLSDs3I13C/6kIEe+9g7ttrTsRoWqWFGKU448g9A/lCUi1REVpdSJC6Pw60lZSIvQPxUi5IiNTyx5NdJlt+/3W/kcg1C+iTe32xP4REqEr2/4fhdCEpxo+Qv8DdsgCQrqWbkx8qgHfh9Owg4RZssD/SQiJwOvPPut+kQx6QmgSU9jGOXN+qbBDjtNml9k8d05Q2VXCfWfYKd5PA6HtyQihVtW7Ojw8JFOTThKh9c/ZIVVYA4sQP2/DNZfdViZlYPSzcN9FS/utu6vbi/UdwkvxgzxPNe0HwS8ih7Opf358Uuqx2yXbn4hQNctJpsjlcYrFeFzf3+3WWUEPPqOO/vBkwANm3Hb/phc3i0WkE3Cyh84N+icQHWkK9z2GnpPLl0u7bdeCe4y7tExqnhQuFoiYIRWRNqbS7O8jPcvRRtx58IFnJzsVkIP1jVOXA3jZfLJVjaHJEkd+nkS9kx4KGq3T/KW3uZb1NG0Yw+PkObiO17oTX4Kwy7fAyV1G1MvG3+82Jfk92Q6pSqy6XzBlCC86REeTyScIZLW/adVzH5rcTUgroH+PFwQlDWT+aeywza3+3e48zRkiOsjUG7284+l6kGTm5504qVQ6Z24hO1ArNJUJfFjsxHHWnp1e3P5ys1/aKOSKDnzdhh88ht+oWPi7yT3YHlMnMgEPjijz3vR7uaLhR4h1Tkc0vGLOrL1v7fa7zVilpOmGUZ7YoV9188D6IGJXbLtyuLN+2r87SaK/gxHVAle14axtNFzuTxg+7QUZI4nuyaafBIycTCQDZc3V0l21GeOQNdA+oElFV92J7+uUcdg2dqTiw1HJRCbW3i0lc7K1iH8YU+bJmTU9lroAWGBqsUY56+lBiEnX08W8fsOpEsIXiwI3+SAyU5545YCaqWE58uuynRcnynXYR1tpnj/bLELTkyGSqFE4qC7BIYQdarY20zquW2SEDMfMX3djGQ7bqqql+oEVtbKKEGJtcoaN9QwvKawPrqrgS4b8SE2l2irkgviVHjWy5e1OEFd//FZZsnGXdVYyNZlejRBlyvzaqHOcmLuLDiKT9HWnjLTXZ1Ms6j1upHIx0lD7Xpl8p93aJIGga5waqmeTDdpAKwTSU6Vb32rumRxiR2aFkTZ7/Zg1Ps6i8l1LGvqlT3zvDRha9mjEFTzq2wZr63RP8qmoTE/XaZeqGTFD1s50QJJa/atpyFfrmpc7aNTlmONeLrj7XNS7mYLQeYqjDwOnguuOthlF9apQLPc8mfZ0mUCjZ3vtMHgD+rX9jaYNMo8/XW61M9BJLDG+dpX71RF32p1Y2irEEdkYmnM33CBCaPQtQi5YotszOSQMBTH3JYwGG5ntsqP7ofVsoRHjcEtQOPL9LqjKOepr09WJqynUszV6qbc/4vaJjHPMEb9pn8QNmSgT9fL9jGotSnaIsQul+T7t6516jvjn1BUSasujp9fOJj+lfEAOjfbsfr/mMZNAA+DmickynBhs7mvsAdKYAeiTiXP/8GheMQl0prqfVasE5NcmX+XDQWNiYCOXb4wvzKclBb8+K+VYbdR0r1xddIvoY/VemuWbrqU2LtF5YvqpVBM15JlNaYRB4rcMIiqsj4T1x4li7tBMnDZTTaaizzn1wvx7wTiFsI7y8FITrafz5x0/M21qDk8lDkOnPDmkTW/pIZWgeDqyQ+PdJDIsaimJc5oN6E5PHbgTIxvj56WIxN85nQW1YX5xZf7cDC8RdbR81HpTHlOVEyihxUt7GkLDT9RLaXmYjfzZ3MF5RcTep5GrRry10LVm/7wK003XTqY8hUuTEDVu2JFIUJw/8fINJMpajbzBaY+G2Z/bVKqD3DgP6e/OXIVwcGKheG3KJ9TLFF++McLlJt5HCEkrRP0gLZOTzMacFkW7LLPivEJXeaA54AOwm6bx0pdTniKFAsXF2l4kKC6ecjcce8pwDhCSJpUyN09DIVXp5lknNJz3zPbVOdpOfIFFnTubLCzoj7IlUe0wMrx6bKYSwr4pU4/Tu7PSDQ1W3ZRldblrjDHX3lo1RFjN2OSnaI3krUzm+pwIkUzKo/aP92gm3Y6e6ZqcqaWb25xMOxdCnU345QpTsyhUq8cW0WlkUJgSmekaOjpINYO9Xub2bFMSzS3pYst3lWF20KxQNyEr3k+LL9JLOQPQGRgQ9syX3YnYAfoP6ro52VU2mBI7ZKLaZlOmCs3H8btFBE+Pp3EReusvDtfy2sMkzdmuxoBJi4yvqBFFu9mJop4MabWzgTIjgy9WtObr4g41/LaIzMuractAhuOFg4r41uHQaI1YM5KDAEbwNySnJIjTMJkvac79zy9wXbG8Ig+EVJ3CFlV52Z0W/fZKntnAEm6ek4Rx4eikaaI9VQ450nr+dBHrkNTX9yCG3IdpG2TxZXecWb8AQn4FOToEVCcrwaK+xQXZue5C1q4qOriBQtusTPs0UpnLyJ7OrY/EWcHmZqILeoivedCm5IISLzVkX7+5lIPBx/kqVdK28jM1VDzBxbjpo+DGSBt+kjmKYK/Zeee0rIfTYoVopHViCd6X2ZG4/3lSaMB+TpRZbhBrpGiFEWcd8O25skm4GR0RXVuMr0hDyi26cHMnyQUDGULpO5xePtPnq0hgcu7dOZ+Zw84RLF90o2eJcbFCru/FLZ4kgdsL+r9UP3EpPdv12nW+8cXPdLbtw0N2K8xMc6o4L+rQz7pjvTUQAXyXsKEdy+nMjxKtAl/vVahPCqUMoFOGOby6Q6Tm2ju7pZMLJAHOPKwqEjU0PdAOxuZxYWn2uR5/qyKl4vwIEZNbhXUXnyl9VECb00ibA8nZ+2nNMy/mutMT/Y0QTsq1x7s8QZOcMbGwm8iSNTTawWxHQbQ8YkHpI9JL7fVNnN6T2Uv9wZJFpmfQFnl7Yz8llLs0QiT5ziNSJdtZ1L60HnATfwvb0nuK7kSnJrvd3Hlap1sotIRub9bHIKSi8gce5IaycGhTwGuqIYlkNoTOsvDN7cHG24lzSe/6XNKPtqgGH3FxbBqO6GYRW0hWxMKuSYFbaTR9rT1bRF518yBQKD9upMcut4t5XW7b8OQYG2OCUTwZI5q6fkTkWWQOSG8ykjuzvUJNrIJvo4+uW7lxDJ12aM4LFtUYLn4Ze+W6qJTh8XpcX9lYHOtVnlnHLHm4M+gCttB6Oe2Y1/acBRCq2PNI+UyPsV1FG9q8Vn5EKqsqTvEOrzTr87hqSoumGocw7tbPry8P7ch8w1tKFXemjHUD4uUoKnlENrjaT2tgW7M+TrMh9dTblwlz7mElNm+ys4AyQKcv2fleIm+g/mXt7FHp7ccoYp1WUDgynXpucKmnK9XTsTGVSZApI8CX647mfnEUFSJR0+NTDZmJAOtdy02OpAxBVd4lIenNnaATqMvFuXMAGYp/w6VslImWDO8AAAdaSURBVO4FRrgnGiquvNKjssE7eXh84u9mnJMF5Yc+UbwYdDa17fkyNUlbgMFiaLnqPYNFFWemjkSK7UfdsfqBKag38zEQyg2KvpHtzJ2XdtZ3IlM8lN+DBVFBrLU5IvkE2owiTLX5uF6plw7a+E11YQ3HVW6RZ+fd4BDZh43NzVp3zvbAcPNyjoaW7wb3odG/zZqH1B3EDBaOX/pcWHNmjnSoMqcBjZdc17Uv1mih8+tzjcrtWL56HH/NXcf8mVTO2fUb9WqL66WcV1Ai7VnPNWf1ryAhchMObtxaYds3Hm7kOJqv6R8C27G8wQmsTn7/sllvVo/LSDmGatietSvJ94AUxw7fQbFZmdV8hxeQDcLcKbjCHcIW6buZHNyDV1hIMmrnNYM7CRip3NpaGucS8Ynctph8z81EoJWqm3BRTimavjcd+CVpIsU+LIgj3PCp7XXUeWQ798sX3U3D7/cQ5f4VyHvTzcZCrqvh3NRqit1Kc/RNUpRbROSYK9incQTcN9y50/1oj+oHKb89im7InFcPTOIxQlWgEAoen9s5vAKsQUZ1D7V49g7f/VxYn7u5KRSDxHk+HeX7u3QPRqz55bFXLqMdJrzAxfYcAWYkAcAvk9zBfdl7/PmjmS4k/mZwTk6sxbM6x+1zyZsP/LtHqHH00U4SK5yvzOqJ4liaBZNTXkBGJhHCyLudeRmT6udnJJp9JH0YtTb7Wh6Xxm5xkxEkLlvzLfA+HHnZI7QuO+K+OCedRUlfyOxQLRlGRSyx7W6WbQF1vjTKfpqOsYfovnvKOSgFV11QuqsiQGihj98H2hcUR5I2OMut6SPAKfYGN2nc2QBC+fVF625CRYgWdc+DYdKeMyeZxDyd5CSiRIe4zVonrrDgYQ4ZIaRXRY3V2HyXH6kW6wq4JM61bxy+K3nRsn2aQ0EiFEJStKrW87K5ynz0L5grRLN96NtHUG6Nk3eLn6HwEEIxNCT0/rwfE9tpXFbCFsQp9yQ42FmQzYWLkLqb0thCnBeaWSR5SK6Qh4Fori9oZIa8QyXkImcnp5qOAeEyqRZ2SD89LKEn69rRgnIkXIQ6uP9Ty899/6dQ0MVMQ3cS+5CvhNfuFuRS4SKEHqdRbWPuz4ErIHZ8Cw/JURHe29JcJtEQwkWIbAcdeRBzvosev2VmfQ2+fYrbf7TVBa95DRch6U+4WkAhbOIiJa0HhHZqcAXETxcWrCEi1MOVlmZzXiFPtgxbEFFzx3YjhyXUvszrVxi8KyyEYOl2ttBTLz/3zZJoOtrz/QpkQjBXcBbkCuEhRNP6wAH03vxWoqrIfKfULRRuLgTRSosVuodIcqq4TCEJa3Yf4wBIK7jFZ9PH6D65XkB6em1nwVmEhBB0yTuUAqb68+vJFlrsSW9jLGLvbEBXiJ8uNKPwECKF9D1clcXm/DVllkXnD1whuRMjC+IEUbdsPzElU3EshHeGVKWCI6RvdebXk2H5Iz1Rz3WRZI+OMySUOotc5xciU/B91AcLeI7wiWsuX7tCOtYlc4VeZREne2gI0THg2wGcvxdicoiTIlC2D4V7nc9TfmeGwp7v3xUeQiqnLKcvF7zQqQnviL4Bb+MhkZ+h9Q4XmVOYXG4DIZpCc8GUDc7rjK6us9W66TibF5FF/AohMoXKJjzkhbldhAGUoJOmL+Cyr5zu7q5H3M6PRIi7xdGMevPdazMCdwj9pc/tGOKsaKLn2gtlt4V2hvrcduhuvrT1kZl0U8QVnH0/so+Y+CK9zEJk2y1ENLPdBa6NYxD1ON9uci+F+wciJKwDvpR11vyE71/QKaOQOf5tCvecEN4OxfJwBawu/B5L2UOnlpEKw8ginaXCQkhV2zlEzmbNWRoHsHf11O4IyS3AFcLbIfRW06c2050E7Rzq0PYe1+EwPLaNPEYDt1csCKoSY79CeWeIkTu/1Roe2y5zudW4TNYZZ6ImkPZkjBZ2jC2knvKasBCKoUpNrz0ibiZQW6lrzm1k0Cd01vq1EQgNoW5RFnAsDJZQG9xA7y4yvDRhYt3xWAgJIXSE0EnOny8eo0UyCLfa3RvUr9lc2DEfYwgFISg7X3A3TW7q7SITQIgYV2bKjGe/9Cah/ACEkOyUQIWBtjm5gcJEIJJD46Jo1Dwd6bU7N1cIZYfIsoyZz3VNq2UW7181KEYs9kdE69xcYYjQohORCQ9VtDX1Wo+6flhVblNofHpTcdFWk7cpNm+rDuL+Sa4FfdQZstQ7vkXg9pGpNe0i0a3Xs4e9aXGD3OjdBzNAooDMuWRirg99C4MUn8dBJY8GgBun60Oox+aFeg3xpdr8HxyFHT/F55E7hCp/YtyFQq0gIVko5Avx+aAgL82a92P3XhEvcOe0WuaxbZ5aTlQ24AxuBkO7je/6OE4BmQM476dGX8AtQElPaC1qrQ6gnx1cjzt8+w8Cjdu0LuK9HYLaNHVN+3E4jABxp+dmU1iP7Dmf+JrV5GWrPxyievZrYlGPzwBE5/zZc8CzHw7Pn+12xhb7jsL/B5F89N4CDbH8AAAAAElFTkSuQmCC" alt="">
+            <h3>Gordura localizada</h3>
+            <p>
+                Mesmo com dieta ou exercícios, algumas áreas
+                insistem em não responder.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="cta-avaliacao">
+    <div class="cta-container">
+        <div class="cta-text fade-up">
+            <h2>
+                Você merece se sentir bem<br>
+                com o seu corpo.<br>
+                Não adie mais o seu cuidado.
+            </h2>
+        </div>
+
+        <div class="cta-action fade-up delay-1">
+            <p>
+                O momento ideal para investir em você nunca é “quando tudo melhorar”.
+                É agora. Seu corpo merece esse cuidado profissional.
+            </p>
+
+            <button class="btn-cta" onclick="agendarConsulta()">
+                Agendar minha avaliação agora!
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="sobre" id="sobre">
+    <div class="sobre-container">
+        <div class="sobre-content fade-up">
+            <span class="tag">Conheça minha trajetória</span>
+            <h2>Quem é a mente por trás do cuidado?</h2>
+            
+            <p>
+                Sou <strong>Andreza Silva</strong>, tenho 30 anos e sou apaixonada por transformar vidas através da 
+                <strong>Fisioterapia Dermatofuncional</strong>. Mais do que tratar a pele, meu propósito é resgatar a autoestima 
+                de mulheres que buscam sua melhor versão no dia a dia.
+            </p>
+
+            <p>
+                Como <strong>mãe e empreendedora</strong> na área da estética e saúde, entendo perfeitamente a importância de 
+                reservar um tempo para o autocuidado. Além da prática clínica, atuo como <strong>mentora de cursos</strong>, 
+                compartilhando conhecimento e capacitando outros profissionais a entregarem resultados de excelência.
+            </p>
+
+    
+            <p>
+                Acredito que a ciência da fisioterapia, unida à empatia e ao acolhimento, é capaz de criar histórias reais de transformação.
+            </p>
+
+        
+        </div>
+
+        <div class="sobre-image fade-up delay-1">
+            <img src="sobre.jpeg" alt="Sobre a Profissional Fisioterapeuta Dermatofuncional / Depilação a Laser - Andreza Silva">
+            <div class="experiencia-badge">
+                <strong>Mentora</strong>
+                <span>Cursos & Carreira</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="funcionamento" id="especialidades">
+    <div class="func-container fade-up">
+        <h2>Como funciona o <span>Atendimento</span></h2>
+        <p class="subtitle">✨ Acolhimento, tecnologia e resultados reais</p>
+
+        <div class="func-description">
+            <p>
+                Cada sessão é planejada para ser um <strong>espaço exclusivo</strong> para você. 
+                Utilizo as técnicas mais modernas da fisioterapia dermatofuncional para garantir que você 
+                tenha a <strong>melhor experiência</strong> de cuidado, tratando não apenas a estética, 
+                mas o seu bem-estar integral.
+            </p>
+        </div>
+
+        <div class="atendimentos-wrapper">
+            <h3>Atendimentos disponíveis</h3>
+            
+            <div class="card-presencial">
+                <h4>Presencial em Luziânia e Águas Claras:</h4>
+                <p>
+                    As consultas acontecem em ambientes acolhedores, reservados e equipados com 
+                    tecnologia de ponta. Ideal para quem busca um acompanhamento detalhado 
+                    e o contato direto para procedimentos de alta performance.
+                </p>
+            </div>
+        </div>
+
+        <button class="btn-whatsapp-func" onclick="agendarConsulta()">
+            Quero agendar minha avaliação <i class="fab fa-whatsapp"></i>
+        </button>
+    </div>
+</section>
+
+<section class="resultados" id="resultados">
+    <div class="resultados-container">
+        
+        <div class="resultados-header-central">
+            <h1>O que dizem <span>nossas clientes</span></h1>
+            <p class="subtitle">✨ Histórias reais de quem transformou a autoestima e o bem-estar.</p>
+        </div>
+
+        <div class="feedback-grid-wrapper">
+            <div class="grid-mensagens">
+                <div class="foto-box">
+                    <img src="imagem de antes e depois.jpeg" alt="Antes e Depois depilação a Lazer Luziania-go aguas claras-df" class="img-print">
+                    <span class="caption">Resultado Clínico</span>
+                </div>
+                <div class="foto-box">
+                    <img src="print.png" alt="Feedback Cliente depilação a Lazer Luziania-go aguas claras-df" class="img-print">
+                    <span class="caption">Depoimento Real</span>
+                </div>
+                <div class="foto-box">
+                    <img src="print2.png" alt="Feedback Cliente depilação a Lazer Luziania-go aguas claras-df" class="img-print">
+                    <span class="caption">Carinho da Cliente</span>
+                </div>
+            </div>
+
+            <div class="resultado-info-clean">
+                <h2>Resultados que encantam</h2>
+                <p>O carinho e a satisfação de cada paciente são nossa maior recompensa.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="faq" id="faq">
+    <div class="faq-container">
+        <div class="faq-header">
+            <h2>Ainda com <span>dúvidas?</span></h2>
+            <p class="subtitle">✨ Aqui estão as dúvidas mais comuns dos meus pacientes</p>
+        </div>
+
+        <div class="faq-content">
+            <details>
+                <summary>O que faz um fisioterapeuta dermatofuncional?</summary>
+                <div class="faq-answer">
+                    <p>Trata a saúde da pele e dos tecidos. Atua na recuperação de funções (como no pós-operatório), além de tratar gordura localizada, flacidez e celulite com embasamento científico.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>A depilação a laser dói?</summary>
+                <div class="faq-answer">
+                    <p>A sensação varia de acordo com a sensibilidade de cada pessoa, mas as tecnologias modernas tornaram o processo muito mais confortável. A maioria dos clientes relata apenas um leve formigamento.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Qual o valor da sessão?</summary>
+                <div class="faq-answer">
+                    <p>Para informações sobre valores e disponibilidade de horários, entre em contato diretamente pelo WhatsApp clicando no botão de agendamento.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Como agendar uma sessão com a Andreza Silva?</summary>
+                <div class="faq-answer">
+                    <p>O agendamento pode ser feito de forma simples através do botão "Agendar Consulta" aqui no site ou diretamente pelo meu WhatsApp.</p>
+                </div>
+            </details>
+        </div>
+    </div>
+</section>
+<section class="parallax-container">
+    <div class="parallax-overlay">
+        <div class="parallax-content">
+            <span class="sparkle">✨</span>
+           <h2>Sua pele merece um momento de pausa.</h2> <p>O tratamento dermatofuncional é o cuidado profundo para você renovar sua autoestima e cuidar da sua saúde de dentro para fora.</p>
+            <a href="https://wa.me/5561992100173?text=Olá! Gostaria de agendar uma consulta." class="btn-parallax">
+                Quero começar minha jornada <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="contato" id="contato">
+    <div class="contato-container">
+        
+        <div class="contato-info">
+            <h2>Contatos</h2>
+            <p class="subtitle">✨ Vamos conversar? Estou aqui para te ouvir</p>
+            
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h4>Atendimento presencial:</h4>
+                    <p>Rua Exemplo, nº 123 - Bairro<br>Luziania - Go</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fab fa-whatsapp"></i>
+                <div>
+                    <h4>Whatsapp:</h4>
+                    <p>(61) 9XXXX-XXXX</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="far fa-envelope"></i>
+                <div>
+                    <h4>E-mail:</h4>
+                    <p>contato@andreza.com</p>
+                </div>
+            </div>
+
+<div class="redes-sociais">
+    <a href="https://www.instagram.com/dra.andrezas/" class="social instagram" aria-label="Instagram">
+        Instagram
+    </a>
+</div>
+
+
+        </div>
+
+        <div class="contato-form-card">
+            <p>Preencha o formulário abaixo e em breve entrarei em contato com você para agendarmos sua sessão.</p>
+            <form action="#">
+                <input type="text" placeholder="Nome completo" required>
+   <input
+    type="tel"
+    id="telefone"
+    name="telefone"
+    placeholder="(99) 99999-9999"
+    required
+    inputmode="numeric"
+    oninput="mascaraTelefone(this)"
+>
+
+                <textarea placeholder="Como posso te ajudar?" rows="5" required></textarea>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-column logo-col">
+            <img src="rodape.jpg" alt="Andreza silva" class="footer-logo">
+        </div>
+
+        <div class="footer-column">
+            <h3>Links Úteis</h3>
+            <ul>
+                <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                <li><a href="#sobre"><i class="fas fa-chevron-right"></i> Sobre mim</a></li>
+                <li><a href="#especialidades"><i class="fas fa-chevron-right"></i> Especialidades</a></li>
+                <li><a href="#contato"><i class="fas fa-chevron-right"></i> Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Contato</h3>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Endereço: Rua Exemplo, nº 123 - Bairro Central | Luziania - GO</p>
+                <p><i class="fas fa-phone-alt"></i> Telefone: (61) 9 9210-0173</p>
+                <p><i class="fab fa-whatsapp"></i> Whatsapp: (61) 9 9210-0173</p>
+                <p><i class="far fa-clock"></i> Segunda à Sexta: 8h - 18h</p>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Redes Sociais</h3>
+            <div class="social-buttons">
+               <a href="https://www.instagram.com/dra.andrezas/" class="social instagram" aria-label="Instagram">
+        Instagram
+    </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Andreza Silva | Fisioterapia Dermatofuncional | CRP 00/00000 - Todos os direitos reservados.</p>
+        <a href="#" class="privacy-link">Políticas de Privacidade</a>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+    <a 
+    href="https://wa.me/5561992100173?text=Olá! Gostaria de agendar uma consulta."
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="Agendar pelo WhatsApp"
+>
+    <img 
+        src="https://img.icons8.com/color/48/whatsapp--v1.png"
+        alt="WhatsApp Fisioterapeuta Dermatofuncional / Depilação a Laser - Andreza Silva"
+    >
+    <span>Agendar</span>
+</a>
+
+
+<script>
+function mascaraTelefone(input) {
+    let value = input.value.replace(/\D/g, ""); // remove tudo que não é número
+    value = value.substring(0, 11); // limita a 11 dígitos
+
+    if (value.length >= 2) {
+        value = value.replace(/^(\d{2})(\d)/, "($1) $2");
+    }
+
+    if (value.length >= 7) {
+        value = value.replace(/(\d{4,5})(\d{4})$/, "$1-$2");
+    }
+
+    input.value = value;
+}
+</script>
+
+</body>
+</html>
